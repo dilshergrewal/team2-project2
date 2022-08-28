@@ -1,7 +1,5 @@
-FROM openjdk:11  
+From tomcat:8-jre8   
 
-COPY target/team-2-0.0.1-SNAPSHOT.war /  
+# copy war file on to container  
 
-WORKDIR /  
-
-CMD ["java", "-war", "team-2-0.0.1-SNAPSHOT.war"]
+COPY ./target/team-2-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps
