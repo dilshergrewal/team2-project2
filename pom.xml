@@ -35,8 +35,10 @@
     <groupId>javax.servlet</groupId>
     <artifactId>jstl</artifactId>
 </dependency>
-<packages>war</packages>
 	</dependencies>
+<packages>
+	war
+	</packages>
 
 	<build>
 		<plugins>
