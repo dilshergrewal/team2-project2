@@ -36,9 +36,7 @@
     <artifactId>jstl</artifactId>
 </dependency>
 	</dependencies>
-<packages>
-	war
-	</packages>
+
 
 	<build>
 		<plugins>
