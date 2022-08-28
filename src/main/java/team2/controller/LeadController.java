@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class LeadController {
 	
-	@RequestMapping("/hello")
+	@RequestMapping("/saveLead")
 	public String saveLead() {
 		
 		return "index";
