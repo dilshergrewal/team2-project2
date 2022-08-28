@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-       <form action= "view" method= "post">
+       <form action= "index" method= "post">
 
        <h2> Team-2 | Team-2 Details </h2>
           <hr>
