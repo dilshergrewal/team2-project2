@@ -9,7 +9,7 @@
 <body>
     <h2> Enter Team-2 Details </h2>
     <hr>
-     <form action= "savelead" method= "post">
+     <form action= "view" method= "post">
      <pre>
     
     First Name<input type= "text" name= "firstName"/>
