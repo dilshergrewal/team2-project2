@@ -13,7 +13,7 @@ public class LeadController {
 		
 		return "index";
 	}
-	@RequestMapping("/savelead")
+	@RequestMapping("/view")
     public String getLead(@RequestParam("firstName") String firstName,@RequestParam("lastName") String lastName,@RequestParam("email") String email,@RequestParam("mobile") String mobile,ModelMap model) {
 		
 		model.addAttribute("firstName",firstName);
